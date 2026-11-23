@@ -37,5 +37,51 @@ int main() {
 	cout << "int " << d << " --> char " << c << endl;
 }*/
 
-	//Zad.4
+//Zad.4
 
+	/*int a, b, c;
+	c = 0;
+	b = 0;
+	cout << "Podaj ilosc liczb: ";
+	cin >> a;
+	if (a <= 0) {
+		cout << "Niepoprawna ilosc liczb :c" << endl;
+		return 0;
+	}
+	cout << "Podaj liczbe calkowita:\n";
+	for (int i = 0; i < a; i++) {
+		cin >> b;
+		c += b;
+	}
+	cout << "Srednia bez rzutowania " << c / a << endl;
+	cout << "Srednia z rzutowaniem " << static_cast<double>(c) / a << endl;
+}*/
+
+//Zad.5
+
+	/*int a, b;
+	cout << "Ile zadan: ";
+	cin >> a;
+	if (a <= 0) {
+		cout << "Niepoprawna ilosc zadan :c" << endl;
+		return 0;
+	}
+	else {
+		cout << "Ile zadan zostalo zrobionych: ";
+		cin >> b;
+		if (b < 0 || b > a) {
+			cout << "Niepoprawna ilosc zrobionych zadan :c" << endl;
+			return 0;
+		}
+		else if (b == 0) {
+			cout << "Nie zrobiles zadnych zadan :c" << endl;
+			return 0;
+		}
+		else {
+			cout << "Procent zrobionych zadan: " << static_cast<double>(b) / a * 100 << "%" << endl;
+		}
+	}
+}*/
+
+	//Zad.6
+	
